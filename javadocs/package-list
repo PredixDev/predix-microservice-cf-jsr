@@ -1,0 +1,3 @@
+com.ge.predix.solsvc.boot
+com.ge.predix.solsvc.boot.service.cxf
+com.ge.predix.solsvc.spi
