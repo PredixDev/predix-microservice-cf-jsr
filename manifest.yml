@@ -2,8 +2,8 @@
 applications:
   - name: predix-microservice-cf-jsr
     buildpack: java_buildpack
-    path: target/predix-microservice-cf-jsr-1.1.15.jar
-    memory: 512M
+    path: target/predix-microservice-cf-jsr-1.1.21.jar
+    memory: 384M
     timeout : 180
 env:
    SPRING_PROFILES_ACTIVE : cloud

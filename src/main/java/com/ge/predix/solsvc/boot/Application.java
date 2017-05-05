@@ -103,6 +103,8 @@ public class Application
     })
     public static void main(String[] args)
     {
+        printMemory();
+        
         SpringApplication springApplication = new SpringApplication(Application.class);
         ApplicationContext ctx = springApplication.run(args);
 
@@ -130,6 +132,35 @@ public class Application
                 log.debug("propertySource=" + propertySource.getName() + " values=" + propertySource.getSource() + "class=" + propertySource.getClass());           
             }         
         }
+        printMemory();
+        System.gc();
+        printMemory();
+
+    }
+
+    /**
+     *  -
+     */
+    private static void printMemory()
+    {
+        Runtime runtime = Runtime.getRuntime();
+        int mb = 1024*1024;
+
+        System.out.println("##### Heap utilization statistics [MB] #####");
+        
+        //Print used memory
+        System.out.println("Used Memory:" 
+            + (runtime.totalMemory() - runtime.freeMemory()) / mb);
+
+        //Print free memory
+        System.out.println("Free Memory:" 
+            + runtime.freeMemory() / mb);
+        
+        //Print total available memory
+        System.out.println("Total Memory:" + runtime.totalMemory() / mb);
+
+        //Print Maximum available memory
+        System.out.println("Max Memory:" + runtime.maxMemory() / mb);
     }
 
     /**
