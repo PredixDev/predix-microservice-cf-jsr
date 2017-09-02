@@ -2,9 +2,10 @@
 applications:
   - name: predix-microservice-cf-jsr
     buildpack: java_buildpack
-    path: target/predix-microservice-cf-jsr-1.1.21.jar
-    memory: 384M
+    path: target/predix-microservice-cf-jsr-1.1.23.jar
+    memory: 512M
     timeout : 180
 env:
    SPRING_PROFILES_ACTIVE : cloud
+   MEMORY_LIMIT: 358M
    JAVA_DOCS_URL : https://predixdev.github.io/predix-microservice-cf-jsr

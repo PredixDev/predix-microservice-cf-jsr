@@ -28,7 +28,7 @@ The template has the following structure and can be used for any Predix microser
 <img src="images/microservice-template.png">
 
 
-##To Download and Push predix-microservice-cf
+## To Download and Push predix-microservice-cf
 
 1. Download a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) and launch it in Virtual Box or install the [Dependencies](#dependencies)
 
@@ -74,14 +74,14 @@ The template has the following structure and can be used for any Predix microser
   visit http://(cloud-url-here)/services/ping - get the url from the output of cf push  
   ```
 
-##Troubleshooting
+## Troubleshooting
 If you encounter a github acct/password issue then contact predixgithubaccount@ge.com.  
 
 If you encounter a [corporate proxy issue](https://github.com/PredixDev/predix-rmd-ref-app/blob/master/docs/proxy.md#proxy), you might need to set up your env vars as required by your IT department.
 
 If you encounter a maven or artifactory account issue, add your predix.io username and encrypted password to a maven ~/.m2/[settings.xml](docs/settings.xml) file on your laptop.  It should be setup already if in a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html).
 
-##Preparation
+## Preparation
 Predix Microservice CF accesses code repos at https://github.com/PredixDev.
 
 The best experience is to use a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) which has all the tools and settings pre-installed.  
@@ -115,7 +115,7 @@ by replacing predixuser@ge.com with your Predix.io user and pass.
   git config --global credential.helper cache --timeout=7200
   ```
 
-##Dependencies
+## Dependencies
 If you are not using DevBox, ensure your development environment is configured with the tools listed here.
 
 |Required | Version | Note |
