@@ -5,7 +5,7 @@
 <a href="http://predixdev.github.io/predix-microservice-cf-jsr" target="_blank">
 	<img height="50px" width="100px" src="images/pages.jpg" alt="view github pages">
 </a>
-
+  
 Predix Microservice CF JSR using CXF
 ==============
 
@@ -32,9 +32,9 @@ The template has the following structure and can be used for any Predix microser
 
 1. Download a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) and launch it in Virtual Box or install the [Dependencies](#dependencies)
 
-1. [Prepare your environment](#preparation) and follow the steps below to get up and running on Cloud Foundry.   
+2. [Prepare your environment](#preparation) and follow the steps below to get up and running on Cloud Foundry.   
 
-1. Download the project  
+3. Download the project  
   ```
   $ git clone https://github.com/PredixDev/predix-microservice-cf-jsr.git  
   
@@ -44,7 +44,7 @@ The template has the following structure and can be used for any Predix microser
   
     note: mvn clean install may run integration tests against services you may not have set up yet
   ```
-1. To load in eclipse (you may skip to 'Push to Cloud' if desired)  
+4. To load in eclipse (you may skip to 'Push to Cloud' if desired)  
   
   Vanilla [Eclipse](https://www.eclipse.org/downloads) or [Eclipse STS - Springsource Tool Suite(https://spring.io/tools/sts/all) are both supported
   ```
@@ -54,7 +54,7 @@ The template has the following structure and can be used for any Predix microser
   
   Check the box 'Search for nested projects'  
   ```
-1. Try it out locally  
+5. Try it out locally  
   ```
   in Eclipse - Right Click predix-microservice-cf project / Run As / Application 
   in Eclise STS - Right Click predix-microservice-cf project / Run As / Spring Boot Application 
@@ -65,7 +65,7 @@ The template has the following structure and can be used for any Predix microser
   
   and http://localhost:9092/services?_wadl - a CXF Rest descriptor
   ```
-1. Push to cloud  
+6. Push to cloud  
 
     Take a look at the [predix-microservice-cf manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry apps](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html)
   ```
@@ -125,5 +125,5 @@ If you are not using DevBox, ensure your development environment is configured w
 | Git | latest | |
 | Maven | latest | https://artifactory.predix.io/artifactory/PREDIX-EXT |
 | CloudFoundry ClI | 6.12.2 | https://github.com/cloudfoundry/cli/tree/v6.12.2#downloads.  There is bug on this page, so you have to manually get the URL and the add "&version=6.12.2".  For example for Windows32 it would look like this...https://cli.run.pivotal.io/stable?release=windows32&source=github&version=6.12.2 |
-
+ 
 [![Analytics](https://ga-beacon.appspot.com/UA-82773213-1/predix-microservice-cf-jsr/readme?pixel)](https://github.com/PredixDev)

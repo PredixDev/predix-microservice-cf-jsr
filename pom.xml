@@ -5,7 +5,7 @@
 
 	<groupId>com.ge.predix.solsvc</groupId>
 	<artifactId>predix-microservice-cf-jsr</artifactId>
-	<version>1.1.28</version>
+	<version>1.1.30</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -15,20 +15,20 @@
 	</parent>
 
 	<properties>
-		<cxf.version>3.1.7</cxf.version>
-		<jetty.version>8.1.7.v20120910</jetty.version>
-		<org.codehaus.jackson.version>1.9.2</org.codehaus.jackson.version>
+		<cxf.version>3.2.2</cxf.version>
+		<jetty.version>9.4.8.v20171121</jetty.version>
+		<org.codehaus.jackson.version>1.9.11</org.codehaus.jackson.version>
 		<httpcomponents.version>4.5.2</httpcomponents.version>
 		<java.version>1.8</java.version>
 		<spring-cloud-core.version>1.2.1.RELEASE</spring-cloud-core.version>
 
 		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
 		<maven-failsafe-plugin.version>2.12</maven-failsafe-plugin.version>
-		<maven-javadoc-plugin.version>2.10.4</maven-javadoc-plugin.version>
-		<jacoco.version>0.7.2.201409121644</jacoco.version>
-		<mockito-version>1.9.5</mockito-version>
+		<maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
+		<jacoco.version>0.8.0</jacoco.version>
+		<mockito-version>2.0.2-beta</mockito-version>
 		<springockito-version>1.0.9</springockito-version>
-		<maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>		
+		<maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>		
 	</properties>
 
 	<dependencies>
