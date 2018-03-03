@@ -5,7 +5,7 @@
 <a href="http://predixdev.github.io/predix-microservice-cf-jsr" target="_blank">
 	<img height="50px" width="100px" src="images/pages.jpg" alt="view github pages">
 </a>
-  
+&nbsp;  
 Predix Microservice CF JSR using CXF
 ==============
 
