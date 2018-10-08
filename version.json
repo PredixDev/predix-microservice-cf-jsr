@@ -1,11 +1,11 @@
 {
   "name": "Predix microservice jsr",
-  "version": "1.1.52",
+  "version": "1.1.53",
   "private": true,
   "dependencies": {
     "local-setup": "https://github.com/PredixDev/local-setup#1.0.101",
-    "predix-scripts": "https://github.com/PredixDev/predix-scripts#1.1.160",
-    "predix-microservice-cf-jsr": "https://github.com/PredixDev/predix-microservice-cf-jsr#1.1.52"
+    "predix-scripts": "https://github.com/PredixDev/predix-scripts#1.1.167",
+    "predix-microservice-cf-jsr": "https://github.com/PredixDev/predix-microservice-cf-jsr#1.1.53"
   },
   "author": "turnerth"
 }
