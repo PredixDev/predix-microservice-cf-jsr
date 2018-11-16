@@ -27,7 +27,6 @@ The template has the following structure and can be used for any Predix microser
 
 <img src="images/microservice-template.png">
 
-
 ## To Download and Push predix-microservice-cf
 
 1. Download a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) and launch it in Virtual Box or install the [Dependencies](#dependencies)

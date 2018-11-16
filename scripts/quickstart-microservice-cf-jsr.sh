@@ -76,7 +76,7 @@ function check_internet() {
     exit 1
   fi
   echo "OK"
-  echo ""
+  echo
   set -e
 }
 
